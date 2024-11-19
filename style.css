@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Bebas Neue", sans-serif;
+    text-decoration: none !important;
+}
+
+.font-fam-display{
+    font-family: "Alfa Slab One", serif;
+}
+
+.font-fam-para{
+    font-family: "Poppins", serif;
+}
+
+.brown-text{
+    color: #3d2514 !important;
+}
+
+.brown-bg{
+    background-color: #3d2514;
+}
+
+.nav-link:hover{
+    color: #3d2514 !important;
+}
+
+.img-container{
+    background-image: url(assets/images/feature1.jpg);
+    height: 290px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-container1{
+    background-image: url(assets/images/feature2.jpg);
+    height: calc((290px / 2) - 5px);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.img-container2{
+    background-image: url(assets/images/feature3.jpg);
+    height: calc((290px / 2) - 5px);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-shadow{
+    text-shadow: 2px 3px #f8f9fa;
+}
+
+.menu-item{
+    height: 200px;
+}
+
+.img-fit{
+    height: 100% !important;
+    object-fit: cover;
+    object-position: center;
+}
+
+.contact-con{
+    background-image: url(assets/images/contact-img.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 992px ) {
+    .heading p{
+        padding: 0 15% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .event-text p{
+        font-size: 13px;
+    }
+}
